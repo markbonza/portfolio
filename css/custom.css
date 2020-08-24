@@ -1,0 +1,123 @@
+body{
+	background: #1c1d26;
+}
+.section_title p{
+	color : #ffffff;
+}
+.code_area{
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+.slider_area .single_slider {
+	background-size: auto;
+    background-position: unset;
+    background-repeat: repeat;
+}
+.slider_bg_1 {
+    background: url(../img/about/bg1.jpg);
+    background-size: cover !important;
+    background-attachment: fixed;
+}
+#services {
+    background: url(../img/about/services.jpg);
+    background-size: cover !important;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.slider_bg_1:before{
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 2;
+    background-color: #000000;
+    opacity: .7;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.pattern-overlay{
+	background-color: #000f23;
+    opacity: 0.90;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.slider_area .single_slider .my_img{
+	z-index: -1;
+}
+
+.zindex3{
+	z-index: 3;
+}
+
+.contact-info a,.header-area .main-header-area .main-menu ul li a, .slider_area .single_slider .slider_text h3 span, .service_area .single_service h3, .gallery_area .single_gallery .gallery_heading h4, .boxed-btn3-line, .testimonial_area .single_testmonial .testmonial_author h3, .footer .footer_top .lets_talk h3 a, .footer .copy-right_text .copy_right a, .header-area .main-header-area .Appointment .book_btn a{
+	color : #80aeff !important;
+}
+
+.boxed-btn3-line, .service_area .single_service, .header-area .main-header-area .Appointment .book_btn a{
+	border-color : #80aeff;
+}
+.boxed-btn3-line:hover, .header-area .main-header-area .Appointment .book_btn a:hover{
+	background : #80aeff;
+	color : #ffffff !important;	
+}
+.download_area .progress_skills .single_progress .progress .progress-bar{
+	background : ##272833;
+}
+
+.gallery_area .single_gallery .gallery_heading h4:hover{
+	text-decoration : none;
+}
+
+.section_title h3 small{
+	color: #a0a0a0;
+    font-weight: 200;
+    font-size: 60%;
+}
+
+.download_area, .gallery_area{
+	background : #272833;
+}
+.background-overlay {
+	background-color: #272833;
+    opacity: 0.90;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.gallery_area, .footer{
+    background: url(../img/b3.jpg);
+    background-size: cover !important;
+    background-attachment: fixed;
+}
+.footer{
+	position: relative;
+}
+.testimonial_area{
+	background : transparent;
+}
+.testimonial_area .single_testmonial p {
+    font-size: 50px;
+    line-height: 39px;
+}
+
+.footer .copy-right_text .copy_right, .footer .copy-right_text .copy_right a{
+	color: #2b2829 !important;
+}
+
+.header-area .main-header-area.sticky{
+	background : rgba(23, 24, 32, 0.95);
+}
+@media (max-width: 767px){
+	.slider_bg_1 {
+	    background-image: url(../img/banner/banner.png);
+	}
+}
